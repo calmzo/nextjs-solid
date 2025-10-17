@@ -86,7 +86,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         首页
@@ -110,7 +110,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/pricing"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         价格
@@ -160,15 +160,15 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/integration"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        我们的博客
+                        集成服务
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/support"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         联系我们

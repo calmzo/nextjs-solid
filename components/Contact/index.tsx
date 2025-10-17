@@ -182,14 +182,14 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   我们的位置
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>杭州</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   邮箱地址
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">chenzo0220@163.com</a>
                 </p>
               </div>
               <div>
@@ -197,7 +197,7 @@ const Contact = () => {
                   电话号码
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">+13153187435</a>
                 </p>
               </div>
             </motion.div>
