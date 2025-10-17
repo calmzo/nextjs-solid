@@ -3,10 +3,10 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
+  title: "支持页面 - Solid SaaS 模板",
 
   // other metadata
-  description: "This is Support page for Solid Pro"
+  description: "这是 Solid Pro 的支持页面"
 };
 
 const SupportPage = () => {

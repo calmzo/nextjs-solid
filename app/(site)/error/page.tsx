@@ -2,10 +2,10 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Error Page - Solid SaaS Boilerplate",
+  title: "错误页面 - Solid SaaS 模板",
 
   // other metadata
-  description: "This is Error page for Solid Pro"
+  description: "这是 Solid Pro 的错误页面"
 };
 
 const ErroPage = () => {
@@ -21,18 +21,17 @@ const ErroPage = () => {
         />
 
         <h2 className="mb-5 text-2xl font-semibold text-black dark:text-white md:text-4xl">
-          This Page Does Not Exist
+          此页面不存在
         </h2>
         <p className="mb-7.5">
-          The page you were looking for appears to have been moved, deleted or
-          does not exist.
+          您要查找的页面似乎已被移动、删除或不存在。
         </p>
 
         <a
           href="/"
           className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
         >
-          Return to Home
+          返回首页
           <svg
             className="fill-white"
             width="14"

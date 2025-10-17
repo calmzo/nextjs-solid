@@ -301,7 +301,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. 版权所有
+                &copy; {new Date().getFullYear()} Solid. All rights reserved
               </p>
             </motion.div>
 

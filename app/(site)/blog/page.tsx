@@ -3,10 +3,10 @@ import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Solid SaaS Boilerplate",
+  title: "博客页面 - Solid SaaS 模板",
 
   // other metadata
-  description: "This is Blog page for Solid Pro"
+  description: "这是 Solid Pro 的博客页面"
 };
 
 const BlogPage = async () => {
