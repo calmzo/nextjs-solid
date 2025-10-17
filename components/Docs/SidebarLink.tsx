@@ -9,25 +9,25 @@ const SidebarLink = () => {
           href={`/docs`}
           className={`flex w-full rounded-xs bg-stroke px-3 py-2 text-base text-black dark:bg-blackho dark:text-white`}
         >
-          Introduction
+          介绍
         </Link>
         <Link
           href={`/docs`}
           className={`flex w-full rounded-xs px-3 py-2 text-base text-black dark:text-white `}
         >
-          Bootstrap Template Guide
+          Bootstrap 模板指南
         </Link>
         <Link
           href={`/docs`}
           className={`flex w-full rounded-xs px-3 py-2 text-base text-black dark:text-white `}
         >
-          Style Guide
+          样式指南
         </Link>
         <Link
           href={`/docs`}
           className={`flex w-full rounded-xs px-3 py-2 text-base text-black dark:text-white `}
         >
-          Using Tailwind Components
+          使用 Tailwind 组件
         </Link>
       </li>
     </>

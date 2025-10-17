@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const FunFact = () => {
   return (
     <>
-      {/* <!-- ===== Funfact Start ===== --> */}
+      {/* <!-- ===== 趣味数据开始 ===== --> */}
       <section className="px-4 py-20 md:px-8 lg:py-22.5 2xl:px-0">
         <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg bg-linear-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-linear-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5">
           <Image
@@ -56,12 +56,11 @@ const FunFact = () => {
             className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              Trusted by Global Companies.
+              获得全球企业信赖
             </h2>
             <p className="mx-auto lg:w-11/12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              我们为全球数千家企业提供优质服务，从初创公司到大型企业，
+              都选择信任我们的解决方案来推动业务增长。
             </p>
           </motion.div>
 
@@ -87,7 +86,7 @@ const FunFact = () => {
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 500K
               </h3>
-              <p className="text-lg lg:text-para2">World Wide Clients</p>
+              <p className="text-lg lg:text-para2">全球客户</p>
             </motion.div>
             <motion.div
               variants={{
@@ -110,7 +109,7 @@ const FunFact = () => {
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 1M+
               </h3>
-              <p className="text-lg lg:text-para2">Downloads</p>
+              <p className="text-lg lg:text-para2">下载量</p>
             </motion.div>
             <motion.div
               variants={{
@@ -133,12 +132,12 @@ const FunFact = () => {
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 865
               </h3>
-              <p className="text-lg lg:text-para2">Winning Award</p>
+              <p className="text-lg lg:text-para2">获奖次数</p>
             </motion.div>
           </div>
         </div>
       </section>
-      {/* <!-- ===== Funfact End ===== --> */}
+      {/* <!-- ===== 趣味数据结束 ===== --> */}
     </>
   );
 };

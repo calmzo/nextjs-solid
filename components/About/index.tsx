@@ -61,19 +61,20 @@ const About = () => {
             >
               <span className="font-medium uppercase text-black dark:text-white">
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
-                  New
+                  全新
                 </span>{" "}
-                SaaS Boilerplate for Next.js
+                Next.js SaaS 模板
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                A Complete Solution for
+                为
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                  SaaS Startup
+                  SaaS创业
                 </span>
+                提供完整解决方案
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                我们提供完整的SaaS解决方案，帮助您快速启动和扩展业务。
+                包含所有必要的功能和集成，让您专注于产品开发。
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -84,9 +85,9 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    React 18, Next.js 13 and TypeScript
+                    React 18、Next.js 13 和 TypeScript
                   </h3>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
+                  <p>使用最新的技术栈构建现代化应用。</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -97,9 +98,9 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Fully Customizable
+                    完全可定制
                   </h3>
-                  <p>consectetur adipiscing elit fermentum ultricies.</p>
+                  <p>根据您的需求灵活调整和扩展功能。</p>
                 </div>
               </div>
             </motion.div>
@@ -131,17 +132,17 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                Launch Your SaaS Fast
+                快速启动您的SaaS
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Packed with All Essential {"   "}
+                包含所有必要的 {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                  Integrations
+                  集成功能
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                内置认证系统、数据库集成、支付处理、邮件服务等核心功能，
+                让您快速构建完整的SaaS应用。
               </p>
               <div>
                 <a
@@ -149,7 +150,7 @@ const About = () => {
                   className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
                 >
                   <span className="duration-300 group-hover:pr-2">
-                    Know More
+                    了解更多
                   </span>
                   <svg
                     width="14"

@@ -16,19 +16,17 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 Solid - A Complete SaaS Web Template
+                🔥 Solid - 完整的SaaS网站模板
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Free Next.js Template for {"   "}
+                免费的Next.js模板用于 {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
                   SaaS
                 </span>
               </h1>
               <p>
-                Solid Pro - Packed with all the key integrations you need for
-                swift SaaS startup launch, including - Auth, Database, Sanity
-                Blog, Essential Components, Pages and More. Built-winth -
-                Next.js 13, React 18 and TypeScript.
+                Solid Pro - 包含快速启动SaaS创业所需的所有关键集成，包括 - 认证、数据库、Sanity博客、核心组件、页面等更多功能。基于 -
+                Next.js 13、React 18 和 TypeScript 构建。
               </p>
 
               <div className="mt-10">
@@ -38,20 +36,20 @@ const Hero = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       type="text"
-                      placeholder="Enter your email address"
+                      placeholder="输入您的邮箱地址"
                       className="rounded-full border border-stroke px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-hidden dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                     />
                     <button
                       aria-label="get started button"
                       className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                     >
-                      Get Started
+                      立即开始
                     </button>
                   </div>
                 </form>
 
                 <p className="mt-5 text-black dark:text-white">
-                  Try for free no credit card required.
+                  免费试用，无需信用卡。
                 </p>
               </div>
             </div>

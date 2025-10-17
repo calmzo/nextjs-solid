@@ -2,71 +2,77 @@
 import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
 
+/**
+ * Pricing 组件 - 价格方案展示
+ * 展示三个不同价格层级的服务方案
+ * 包含基础版、热门版和高级版三个选项
+ */
 const Pricing = () => {
   return (
     <>
-      {/* <!-- ===== Pricing Table Start ===== --> */}
+      {/* <!-- ===== 价格方案开始 ===== --> */}
       <section className="overflow-hidden pb-20 pt-15 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
-          {/* <!-- Section Title Start --> */}
+          {/* <!-- 区域标题开始 --> */}
           <div className="animate_top mx-auto text-center">
             <SectionHeader
               headerInfo={{
-                title: `PRICING PLANS`,
-                subtitle: `Simple Pricing`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                title: `价格方案`,
+                subtitle: `简单定价`,
+                description: `选择适合您需求的价格方案，享受优质的服务体验。我们提供灵活的价格选项，满足不同用户的需求。`,
               }}
             />
           </div>
-          {/* <!-- Section Title End --> */}
+          {/* <!-- 区域标题结束 --> */}
         </div>
 
         <div className="relative mx-auto mt-15 max-w-[1207px] px-4 md:px-8 xl:mt-20 xl:px-0">
+          {/* 背景装饰图案 */}
           <div className="absolute -bottom-15 -z-1 h-full w-full">
             <Image
               fill
               src="./images/shape/shape-dotted-light.svg"
-              alt="Dotted"
+              alt="装饰图案"
               className="dark:hidden"
             />
           </div>
           <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
-            {/* <!-- Pricing Item --> */}
+            {/* <!-- 基础版价格方案 --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $10{" "}
+                ¥68{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
+                  /月
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Small Pack
+                基础版
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>适合个人用户和小型团队的基础服务方案</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    300 GB 存储空间
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    无限照片和视频
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    专属客服支持
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    定制品牌策略
                   </li>
                 </ul>
               </div>
 
               <button
-                aria-label="Get the Plan button"
+                aria-label="选择此方案按钮"
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
                 <span className="duration-300 group-hover/btn:pr-2">
-                  Get the Plan
+                  选择此方案
                 </span>
                 <svg
                   width="14"
@@ -82,46 +88,46 @@ const Pricing = () => {
               </button>
             </div>
 
-            {/* <!-- Pricing Item --> */}
+            {/* <!-- 热门版价格方案 --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
-                popular
+                热门
               </div>
 
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $59{" "}
+                ¥399{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
+                  /月
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Medium Pack
+                热门版
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>适合中型企业和团队的专业服务方案</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    300 GB 存储空间
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    无限照片和视频
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    专属客服支持
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    定制品牌策略
                   </li>
                 </ul>
               </div>
 
               <button
-                aria-label="Get the Plan button"
+                aria-label="选择此方案按钮"
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
                 <span className="duration-300 group-hover/btn:pr-2">
-                  Get the Plan
+                  选择此方案
                 </span>
                 <svg
                   width="14"
@@ -137,42 +143,42 @@ const Pricing = () => {
               </button>
             </div>
 
-            {/* <!-- Pricing Item --> */}
+            {/* <!-- 高级版价格方案 --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $189{" "}
+                ¥1,279{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
-                  /month
+                  /月
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Large Pack
+                高级版
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>适合大型企业和高级用户的全功能服务方案</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    300 GB 存储空间
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    无限照片和视频
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    专属客服支持
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    定制品牌策略
                   </li>
                 </ul>
               </div>
 
               <button
-                aria-label="Get the Plan button"
+                aria-label="选择此方案按钮"
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
                 <span className="duration-300 group-hover/btn:pr-2">
-                  Get the Plan
+                  选择此方案
                 </span>
                 <svg
                   width="14"
@@ -190,7 +196,7 @@ const Pricing = () => {
           </div>
         </div>
       </section>
-      {/* <!-- ===== Pricing Table End ===== --> */}
+      {/* <!-- ===== 价格方案结束 ===== --> */}
     </>
   );
 };

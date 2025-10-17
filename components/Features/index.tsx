@@ -7,17 +7,16 @@ import SectionHeader from "../Common/SectionHeader";
 const Feature = () => {
   return (
     <>
-      {/* <!-- ===== Features Start ===== --> */}
+      {/* <!-- ===== 功能特性开始 ===== --> */}
       <section id="features" className="py-20 lg:py-25 xl:py-30">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "核心功能",
+              subtitle: "Solid的核心特性",
+              description: `我们提供全面的功能特性，帮助您快速构建现代化的Web应用程序。
+            从设计到部署，我们为您提供完整的解决方案。`,
             }}
           />
           {/* <!-- Section Title End --> */}
@@ -33,7 +32,7 @@ const Feature = () => {
         </div>
       </section>
 
-      {/* <!-- ===== Features End ===== --> */}
+      {/* <!-- ===== 功能特性结束 ===== --> */}
     </>
   );
 };

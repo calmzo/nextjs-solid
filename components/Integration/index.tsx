@@ -8,16 +8,16 @@ const Integration = () => {
     <>
       <section>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          {/* <!-- Section Title Start --> */}
+          {/* <!-- 章节标题开始 --> */}
           <SectionHeader
             headerInfo={{
-              title: `INTEGRATIONS`,
-              subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              title: `集成服务`,
+              subtitle: `随时随地远程维护您的数据`,
+              description: `我们提供强大的集成服务，让您能够轻松连接和管理各种数据源。无论您身在何处，都能安全、高效地维护您的数据资产。`,
             }}
           />
 
-          {/* <!-- Section Title End --> */}
+          {/* <!-- 章节标题结束 --> */}
         </div>
 
         <div className="pattern-dots pattern-blue-500 pattern-bg-white pattern-size-4 pattern-opacity-10 relative z-50 mx-auto mt-15 max-w-c-1154 px-4 md:px-8 xl:mt-20 xl:px-0">

@@ -3,18 +3,18 @@ import { FAQ } from "@/types/faq";
 const faqData: FAQ[] = [
   {
     id: 1,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "什么是您的核心服务？",
+    ans: "我们为初创企业和小型企业提供数字体验服务。我们通过创建品牌标识、数字体验来帮助客户取得成功。",
   },
   {
     id: 2,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "您如何确保项目质量？",
+    ans: "我们拥有经验丰富的专业团队，采用严格的质量控制流程，确保每个项目都达到最高标准。",
   },
   {
     id: 3,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "项目交付周期是多久？",
+    ans: "项目交付时间根据具体需求而定，通常在2-8周内完成。我们会根据项目复杂度提供详细的时间规划。",
   },
 ];
 

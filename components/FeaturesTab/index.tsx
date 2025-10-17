@@ -11,7 +11,7 @@ const FeaturesTab = () => {
 
   return (
     <>
-      {/* <!-- ===== Features Tab Start ===== --> */}
+      {/* <!-- ===== 功能标签开始 ===== --> */}
       <section className="relative pb-20 pt-18.5 lg:pb-22.5">
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
@@ -29,7 +29,7 @@ const FeaturesTab = () => {
             />
           </div>
 
-          {/* <!-- Tab Menues Start --> */}
+          {/* <!-- 标签菜单开始 --> */}
           <motion.div
             variants={{
               hidden: {
@@ -63,7 +63,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Clean User Interface
+                  简洁用户界面
                 </button>
               </div>
             </div>
@@ -82,7 +82,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Essential Business Pages
+                  核心业务页面
                 </button>
               </div>
             </div>
@@ -101,14 +101,14 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Fully Functional Integrations
+                  完整功能集成
                 </button>
               </div>
             </div>
           </motion.div>
-          {/* <!-- Tab Menues End --> */}
+          {/* <!-- 标签菜单结束 --> */}
 
-          {/* <!-- Tab Content Start --> */}
+          {/* <!-- 标签内容开始 --> */}
           <motion.div
             variants={{
               hidden: {
@@ -136,10 +136,10 @@ const FeaturesTab = () => {
               </div>
             ))}
           </motion.div>
-          {/* <!-- Tab Content End --> */}
+          {/* <!-- 标签内容结束 --> */}
         </div>
       </section>
-      {/* <!-- ===== Features Tab End ===== --> */}
+      {/* <!-- ===== 功能标签结束 ===== --> */}
     </>
   );
 };

@@ -11,22 +11,27 @@ import { motion } from "framer-motion";
 import SingleTestimonial from "./SingleTestimonial";
 import { testimonialData } from "./testimonialData";
 
+/**
+ * Testimonial 组件 - 客户评价展示
+ * 使用Swiper轮播展示客户评价，支持自动播放和分页
+ * 包含动画效果和响应式设计
+ */
 const Testimonial = () => {
   return (
     <>
       <section>
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
-          {/* <!-- Section Title Start --> */}
+          {/* <!-- 区域标题开始 --> */}
           <div className="animate_top mx-auto text-center">
             <SectionHeader
               headerInfo={{
-                title: `TESTIMONIALS`,
-                subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                title: `客户评价`,
+                subtitle: `客户反馈`,
+                description: `我们重视每一位客户的反馈，这些真实的评价展现了我们的服务质量和产品价值。`,
               }}
             />
           </div>
-          {/* <!-- Section Title End --> */}
+          {/* <!-- 区域标题结束 --> */}
         </div>
 
         <motion.div
@@ -47,9 +52,9 @@ const Testimonial = () => {
           viewport={{ once: true }}
           className="animate_top mx-auto mt-15 max-w-c-1235 px-4 md:px-8 xl:mt-20 xl:px-0"
         >
-          {/* <!-- Slider main container --> */}
+          {/* <!-- 轮播主容器 --> */}
           <div className="swiper testimonial-01 mb-20 pb-22.5">
-            {/* <!-- Additional required wrapper --> */}
+            {/* <!-- Swiper轮播组件 --> */}
             <Swiper
               spaceBetween={50}
               slidesPerView={2}
@@ -62,11 +67,11 @@ const Testimonial = () => {
               }}
               modules={[Autoplay, Pagination]}
               breakpoints={{
-                // when window width is >= 640px
+                // 当窗口宽度 >= 640px 时
                 0: {
                   slidesPerView: 1,
                 },
-                // when window width is >= 768px
+                // 当窗口宽度 >= 768px 时
                 768: {
                   slidesPerView: 2,
                 },

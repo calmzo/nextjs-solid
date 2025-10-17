@@ -1,39 +1,39 @@
 ---
-title: Using Tailwind Components
-description: How to use Tailwind UI Components from GrayGrids
+title: 使用 Tailwind 组件
+description: 如何使用来自 GrayGrids 的 Tailwind UI 组件
 date: 2023-1-21
 ---
 
-## Basic Use and Download
+## 基本使用和下载
 
-GrayGrids offers essential Tailwind UI components with the All-Access Plan. You can use them by copy-pasting them to your existing Tailwind projects, or you can build completely new projects with them.
+GrayGrids 通过全访问计划提供必要的 Tailwind UI 组件。您可以通过将它们复制粘贴到您现有的 Tailwind 项目中来使用它们，或者您可以用它们构建全新的项目。
 
-You can also download offline files from the downloads section of your account.
+您也可以从您账户的下载部分下载离线文件。
 
-## Configuration:
+## 配置：
 
-We can use GrayGrids with an existing Tailwind project or we can start from scratch. We will go walk you through both of the processes.
+我们可以在现有的 Tailwind 项目中使用 GrayGrids，也可以从头开始。我们将引导您完成这两个过程。
 
-### 1. Starting from scratch
+### 1. 从头开始
 
-We are going to show you how to start a project with GrayGrids from scratch. We first will set up a Tailwind CSS project then we will include GrayGrids in it.
+我们将向您展示如何从头开始使用 GrayGrids 项目。我们首先将设置一个 Tailwind CSS 项目，然后我们将在其中包含 GrayGrids。
 
-Here are the steps you can take to start a GrayGrids project from scratch:
+以下是您从头开始 GrayGrids 项目可以采取的步骤：
 
-**Step#1**: Install Tailwind and generate the config file.
+**步骤#1**：安装 Tailwind 并生成配置文件。
 
 ```sh
 npm install -D tailwindcss
 npx tailwindcss init
 ```
 
-**Step#2**: Install TailGrids
+**步骤#2**：安装 TailGrids
 
 ```sh
 npm i tailgrids
 ```
 
-**Step#3**: Update the config file with GrayGrids config.
+**步骤#3**：使用 GrayGrids 配置更新配置文件。
 
 ```js
 module.exports = {
@@ -46,7 +46,7 @@ module.exports = {
 };
 ```
 
-**Step#4**: Add Tailwind CSS directives to your CSS. Create a CSS file named **input.css** in the root of your project or the **src** directory. Then include this code at the top of the file.
+**步骤#4**：将 Tailwind CSS 指令添加到您的 CSS 中。在项目的根目录或 **src** 目录中创建一个名为 **input.css** 的 CSS 文件。然后在文件顶部包含此代码。
 
 ```css
 @tailwind base;
@@ -54,9 +54,9 @@ module.exports = {
 @tailwind utilities;
 ```
 
-**Step#5**: Generate the CSS file with the build command.
+**步骤#5**：使用构建命令生成 CSS 文件。
 
-To do that first we will have to add the script to the **package.json** file. Make sure you’ve provided the correct path of the **input.css** file. if it’s in the root keep the script as is, if it’s under the **src** include that before the slash.
+要做到这一点，首先我们必须将脚本添加到 **package.json** 文件中。确保您提供了 **input.css** 文件的正确路径。如果它在根目录中，请保持脚本不变，如果它在 **src** 下，请在斜杠前包含它。
 
 ```json
 "scripts": {
@@ -64,13 +64,13 @@ To do that first we will have to add the script to the **package.json** file. Ma
   },
 ```
 
-Then we will have to run the build command:
+然后我们必须运行构建命令：
 
 ```sh
 npm run build
 ```
 
-**Step#6**: Include the compiled CSS file in the Html file. We’ve compiled the file in the **dist** folder.
+**步骤#6**：在 HTML 文件中包含编译的 CSS 文件。我们已在 **dist** 文件夹中编译了文件。
 
 ```html
 <!DOCTYPE html>
@@ -86,10 +86,10 @@ npm run build
 </html>
 ```
 
-Now you can just copy and paste the components from GrayGrids and build websites.
+现在您只需从 GrayGrids 复制粘贴组件并构建网站。
 
-### 1. Use GrayGrids with the existing Tailwind Project.
+### 1. 在现有的 Tailwind 项目中使用 GrayGrids。
 
 ……….
 
-Our Tailwind components are powered by [TailGrids](https://tailgrids.com/), you can learn more about TailGrids from [TailGrids Docs](https://tailgrids.com/docs) too.
+我们的 Tailwind 组件由 [TailGrids](https://tailgrids.com/) 提供支持，您也可以从 [TailGrids 文档](https://tailgrids.com/docs) 了解更多关于 TailGrids 的信息。

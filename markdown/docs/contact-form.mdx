@@ -1,38 +1,38 @@
 ---
-title: Configuring Contact Form
-description: Configuring Contact Form That Comes with Templates
+title: 配置联系表单
+description: 配置随模板提供的联系表单
 date: 2023-1-23
 ---
 
-## Introduction
+## 介绍
 
-This part of the documentation shows you how you can configure a contact form with Tailwind CSS Templates and Bootstrap Templates.
+本文档的这一部分向您展示如何使用 Tailwind CSS 模板和 Bootstrap 模板配置联系表单。
 
-## Using PHP Contact Form:
+## 使用 PHP 联系表单：
 
-For Bootstrap templates, we used to provide a PHP script that only can be used for PHP servers,
+对于 Bootstrap 模板，我们过去提供一个只能用于 PHP 服务器的 PHP 脚本，
 
-if `phpmailer` function is up and running smoothly.
+如果 `phpmailer` 功能正常运行。
 
-Here is how it works: Just **replace the email address with your own** from
+它的工作原理是：只需从以下位置**将电子邮件地址替换为您自己的**
 
 ```bash
 assets->php>contact.php
 ```
 
-This procedure should work if everything is configured properly on the server side.
+如果服务器端一切配置正确，此过程应该可以正常工作。
 
-## Using FormBold: A universal Form API (Recommended):
+## 使用 FormBold：通用表单 API（推荐）：
 
-[FormBold](https://formbold.com/) is a powerful form API and serverless form backend that works with all hosting, SSG, and frameworks.
+[FormBold](https://formbold.com/) 是一个强大的表单 API 和无服务器表单后端，适用于所有托管、SSG 和框架。
 
-We highly recommend, using a serverless end-point ([FormBold](https://formbold.com/)) to make contact form dynamic. Since most users nowadays don't use PHP servers.
+我们强烈建议使用无服务器端点（[FormBold](https://formbold.com/)）来使联系表单动态化。因为现在大多数用户不使用 PHP 服务器。
 
-Here’s how to connect [FormBold](https://formbold.com/) API with your contact form:
+以下是如何将 [FormBold](https://formbold.com/) API 与您的联系表单连接：
 
-**Step#1**: Create an account on [FormBold](https://formbold.com/) and create a Form.
+**步骤#1**：在 [FormBold](https://formbold.com/) 上创建账户并创建表单。
 
-**Step#2**: Integrate the API into your contact Form using this code. Make sure your Form’s method is set to **POST**
+**步骤#2**：使用此代码将 API 集成到您的联系表单中。确保您的表单方法设置为 **POST**
 
 ```html
 <form action="https://formbold.com/s/unique_form_id" method="POST">
@@ -44,9 +44,9 @@ Here’s how to connect [FormBold](https://formbold.com/) API with your contact 
 </form>
 ```
 
-You’ll find the `unique_form_id` in the [FormBold](https://formbold.com/) dashboard under \***\*Settings>Integration.\*\***
+您可以在 [FormBold](https://formbold.com/) 仪表板的 **设置>集成** 下找到 `unique_form_id`。
 
-Copy and paste it to the **action** attribute.
+将其复制并粘贴到 **action** 属性中。
 
-This is just the basic setup, FormBold has a lot of great features like re-captcha for spam protection, and the ability to integrate it with other apps like Webhook, Slack, Notion, and GoogleSheet.
-Learn more about [FormBold](https://formbold.com/) [here](https://formbold.com/).
+这只是基本设置，FormBold 有很多很棒的功能，比如用于垃圾邮件保护的 re-captcha，以及与其他应用程序（如 Webhook、Slack、Notion 和 GoogleSheet）集成的能力。
+在[这里](https://formbold.com/)了解更多关于 [FormBold](https://formbold.com/) 的信息。
