@@ -1,91 +1,91 @@
-# Solid - Free Next.js Web Template and Starter Kit for SaaS
+# Solid - 免费 Next.js Web 模板和 SaaS 启动套件
 
-Solid is a free Next.js template specifically crafted for startups, SaaS, and software websites. It provides an extensive array of necessary sections, elements, and pages required to build a fully-equipped website for any SaaS, software, or startup site. Comes with all cutting edge React and Next.js features - **Built with Next.js 13, React 18 and TypeScript.**
+Solid 是一个专为初创公司、SaaS 和软件网站设计的免费 Next.js 模板。它提供了构建功能齐全的 SaaS、软件或初创公司网站所需的大量必要部分、元素和页面。包含所有前沿的 React 和 Next.js 功能 - **基于 Next.js 13、React 18 和 TypeScript 构建。**
 
-This Next.js template's homepage comes with an awesome hero area, logos of associated brands, a features section, an about section, another features section with tabs, counters, and star ratings, integration options, clear call-to-actions, an FAQ section with accordions, a testimonials section, pricing tables, a contact page, a blog, and a distinctive footer.
+这个 Next.js 模板的主页包含一个令人惊叹的英雄区域、关联品牌标志、功能部分、关于部分、另一个带标签的功能部分、计数器和星级评分、集成选项、清晰的行动号召、带手风琴的常见问题部分、推荐部分、定价表、联系页面、博客和独特的页脚。
 
-**Solid Next.js template packed with all necessary external pages** - such as login, registration, blog grids, and single blog pages, among others. This broad collection of pages provides all the necessary tools to create a feature-packed, comprehensive, and visually appealing website or landing page for software, a web application, or SaaS.
+**Solid Next.js 模板包含所有必要的外部页面** - 如登录、注册、博客网格和单个博客页面等。这个广泛的页面集合提供了创建功能丰富、全面且视觉吸引人的软件、网络应用程序或 SaaS 网站或落地页所需的所有必要工具。
 
-### [🔥 Get Solid Pro - Next.js SaaS Boilerplate and Starter Kit](https://nextjstemplates.com/templates/solid)
+### [🔥 获取 Solid Pro - Next.js SaaS 样板和启动套件](https://nextjstemplates.com/templates/solid)
 
-### [🚀 Solid PRO Live Demo](https://solid.nextjstemplates.com/)
+### [🚀 Solid PRO 在线演示](https://solid.nextjstemplates.com/)
 
-### [🚀 Solid FREE Live Demo](https://solid-free.nextjstemplates.com/)
+### [🚀 Solid FREE 在线演示](https://solid-free.nextjstemplates.com/)
 
-### Solid PRO vs Solid FREE Comparison 📊
+### Solid PRO vs Solid FREE 对比 📊
 
 #### [Solid PRO](https://solid.nextjstemplates.com/)
-- SaaS Boilerplate + Starter Kit with Essential Integrations and Functionalities
-- Essential Integrations: Auth, DB, Stripe, MDX and More ...
-- Fully Functional, Ready to Use Sanity Blog Support
-- Premium Email Support
-- Functional External Pages
-- Free Lifetime Future Updates
+- SaaS 样板 + 带基本集成和功能的启动套件
+- 基本集成：认证、数据库、Stripe、MDX 等...
+- 完全功能、即用型 Sanity 博客支持
+- 高级邮件支持
+- 功能完整的外部页面
+- 免费终身未来更新
 ___
 #### [Solid FREE](https://solid-free.nextjstemplates.com/)
-- Only UI - Coded for Next.js
-- No Integrations
-- No Functional Blogging System
-- External Pages without Functions/Integrations
-- Community Support
-- Free Lifetime Future Updates
+- 仅 UI - 为 Next.js 编码
+- 无集成
+- 无功能博客系统
+- 无功能/集成的外部页面
+- 社区支持
+- 免费终身未来更新
 ___
 
-### [📦 Download](https://nextjstemplates.com/templates/solid)
+### [📦 下载](https://nextjstemplates.com/templates/solid)
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/solid)
+### [🔥 获取专业版](https://nextjstemplates.com/templates/solid)
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
+### [🔌 文档](https://nextjstemplates.com/docs)
 
-### ⚡ Deploy Now
+### ⚡ 立即部署
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fsolid-nextjs)
+[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fsolid-nextjs)
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/solid-nextjs)
+[![使用 Netlify 部署](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/solid-nextjs)
 
 
-## Installation
+## 安装
 
-Here are the steps you need to follow to install the dependencies.
+以下是您需要遵循的安装依赖项步骤。
 
-1.Download and extract the template from **Next.js Templates.**
+1. 从 **Next.js Templates** 下载并解压模板。
 
-2.**cd** into the template directory then run this command to install all the dependencies
+2. **cd** 进入模板目录，然后运行此命令安装所有依赖项
     
 ```bash
     npm install --legacy-peer-deps
 ```
-**Note:** As of right now React 19 causes peer dependencies issues with some packages, so the `legacy-peer-deps` flag is required.
+**注意：** 目前 React 19 会导致某些包的依赖项问题，因此需要 `legacy-peer-deps` 标志。
 
-You can start the project on the local server
+您可以在本地服务器上启动项目
     
 ```bash
     npm run dev
  ```
 
-It’ll start the template on [localhost:3000](http://localhost:3000). 
+它将在 [localhost:3000](http://localhost:3000) 上启动模板。
 
-The documentation includes all the guides you need for the integrations. 
+文档包含集成所需的所有指南。
 
 
-### Deploying on PaaS
+### 在 PaaS 上部署
 
-If you are using a GitHub repo then you can go with free-of-cost and easy-to-use options like [Vercel](https://vercel.com/), or [Netlify](https://netlify.com/) they offer decent-free tiers for Next.js hosting.
+如果您使用 GitHub 仓库，那么您可以选择免费且易于使用的选项，如 [Vercel](https://vercel.com/) 或 [Netlify](https://netlify.com/)，它们为 Next.js 托管提供体面的免费层级。
 
-### 📄 License
-Solid Free is 100% free and open-source, feel free to use with your personal and commercial projects.
+### 📄 许可证
+Solid Free 是 100% 免费和开源的，可自由用于您的个人和商业项目。
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+### 💜 支持
+如果您喜欢这个模板，请为此仓库加星，以激励团队创建更多类似的东西，并接触到更多像您这样的用户！
 
-### ✨ Browse and Download - Best Free [Next.js Templates](https://nextjstemplates.com/templates)
+### ✨ 浏览和下载 - 最佳免费 [Next.js 模板](https://nextjstemplates.com/templates)
 
-### Update Log
+### 更新日志
 
-**10 April 2025**
-- Update eslint to v9.24.0 to resolve peer deps warning during installation.
-- Migrate to tailwind v4
+**2025年4月10日**
+- 更新 eslint 到 v9.24.0 以解决安装期间的依赖项警告。
+- 迁移到 tailwind v4
 
-**29 Jan 2025**
-- Upgraded to Next.js 15
-- Update framer-motion to v12.0.6 for React 19 support.
+**2025年1月29日**
+- 升级到 Next.js 15
+- 更新 framer-motion 到 v12.0.6 以支持 React 19。

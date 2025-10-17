@@ -46,17 +46,17 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  我们致力于为客户提供最优质的产品和服务，让您的业务更上一层楼。
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
-                  contact
+                  联系我们
                 </p>
                 <a
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  calmzo0220@163.com
                 </a>
               </motion.div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Quick Links
+                    快速链接
                   </h4>
 
                   <ul>
@@ -89,7 +89,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Home
+                        首页
                       </a>
                     </li>
                     <li>
@@ -97,7 +97,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                        产品
                       </a>
                     </li>
                     <li>
@@ -105,7 +105,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Careers
+                        招聘
                       </a>
                     </li>
                     <li>
@@ -113,7 +113,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Pricing
+                        价格
                       </a>
                     </li>
                   </ul>
@@ -138,7 +138,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Support
+                    支持
                   </h4>
 
                   <ul>
@@ -147,7 +147,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Company
+                        公司
                       </a>
                     </li>
                     <li>
@@ -155,7 +155,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Press media
+                        媒体中心
                       </a>
                     </li>
                     <li>
@@ -163,7 +163,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Our Blog
+                        我们的博客
                       </a>
                     </li>
                     <li>
@@ -171,7 +171,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Contact Us
+                        联系我们
                       </a>
                     </li>
                   </ul>
@@ -196,22 +196,22 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Newsletter
+                    新闻订阅
                   </h4>
                   <p className="mb-4 w-[90%]">
-                    Subscribe to receive future updates
+                    订阅我们的新闻，获取最新更新
                   </p>
 
                   <form action="#">
                     <div className="relative">
                       <input
                         type="text"
-                        placeholder="Email address"
+                        placeholder="邮箱地址"
                         className="w-full rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-hidden dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
 
                       <button
-                        aria-label="signup to newsletter"
+                        aria-label="订阅新闻"
                         className="absolute right-0 p-4"
                       >
                         <svg
@@ -266,17 +266,17 @@ const Footer = () => {
               <ul className="flex items-center gap-8">
                 <li>
                   <a href="#" className="hover:text-primary">
-                    English
+                    中文
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-primary">
-                    Privacy Policy
+                    隐私政策
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-primary">
-                    Support
+                    支持
                   </a>
                 </li>
               </ul>
@@ -301,7 +301,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Solid. 版权所有
               </p>
             </motion.div>
 
