@@ -3,60 +3,60 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: "首页",
     newTab: false,
     path: "/",
   },
   {
     id: 2,
-    title: "Features",
+    title: "功能特性",
     newTab: false,
     path: "/#features",
   },
   {
     id: 2.1,
-    title: "Blog",
+    title: "博客",
     newTab: false,
     path: "/blog",
   },
   {
     id: 2.3,
-    title: "Docs",
+    title: "文档",
     newTab: false,
     path: "/docs",
   },
   {
     id: 3,
-    title: "Pages",
+    title: "页面",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "博客列表",
         newTab: false,
         path: "/blog",
       },
       {
         id: 34,
-        title: "Sign In",
+        title: "登录",
         newTab: false,
         path: "/auth/signin",
       },
       {
         id: 35,
-        title: "Sign Up",
+        title: "注册",
         newTab: false,
         path: "/auth/signup",
       },
       {
         id: 35,
-        title: "Docs",
+        title: "文档",
         newTab: false,
         path: "/docs",
       },
       {
         id: 35.1,
-        title: "Support",
+        title: "支持",
         newTab: false,
         path: "/support",
       },
@@ -71,7 +71,7 @@ const menuData: Menu[] = [
 
   {
     id: 4,
-    title: "Support",
+    title: "支持",
     newTab: false,
     path: "/support",
   },
