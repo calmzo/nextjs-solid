@@ -24,12 +24,12 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="light"
         >
-          <Lines />
-          <Header />
-          <ToasterContext />
-          {children}
-          <Footer />
-          <ScrollToTop />
+          <Lines />           {/* 装饰线条 */}
+          <Header />          {/* 导航头部 */}
+          <ToasterContext />  {/* 全局提示 */}
+          {children}          {/* 主体内容 */}
+          <Footer />          {/* 页脚 */}
+          <ScrollToTop />     {/* 回到顶部 */}
         </ThemeProvider>
       </body>
     </html>
